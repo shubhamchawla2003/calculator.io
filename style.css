@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #016e49;
+}
+
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    gap: 40px;
+}
+
+button{
+    height: 200px;
+    width: 190px;
+    padding: 1.5rem;
+    font-size: 70px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: -5px -5px 15px #016e49;
+    cursor: pointer;
+}
+
+
+button:hover{
+    transform: scale(1.15);
+   
+}
+
+
+input{
+    width: 850px;
+    height: 93px;
+    font-size: 86px;
+    text-align: end;
+    padding: 1rem;
+    background-color: #016e49;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid #6fbfa4;
+    padding: 30px;
+    box-shadow: 0 0 150x #016e49;
+    border-radius: 30px;
+}
+
+.equal{
+    background-color: aqua;
+}
+
+.operation{
+    background-color: blueviolet;
+}
+
+@media  screen and (max-width:1441px) {
+    .box-grid{
+        display: grid;
+        grid-template-columns: repeat(4,0fr);
+        gap: 40px;
+    }
+    
+    button{
+        height: 135px;
+        width: 136px;
+        padding: 1rem;
+        font-size: 30px;
+        border: 0;
+        border-radius: 50%;
+        box-shadow: -5px -5px 15px #016e49;
+        cursor: pointer;
+    }
+    
+    
+    button:hover{
+        transform: scale(1.15);
+       
+    }
+    
+    
+    input{
+        width: 640px;
+        height: 50px;
+        font-size: 70px;
+        text-align: end;
+        padding: 1rem;
+        background-color: #016e49;
+        outline: none;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border: 2px solid #6fbfa4;
+        padding: 30px;
+        box-shadow: 0 0 150x #016e49;
+        border-radius: 30px;
+    }
+    
+}
